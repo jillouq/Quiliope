@@ -1,0 +1,58 @@
+body{
+  font-family: 'playfair display';
+  background: rgb(181, 228, 224);
+}
+.username{
+  margin-bottom: 10px;
+}
+.password{
+  margin-top: 10px;
+}
+#username{
+  margin-top: 5px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+#password{
+  margin-top: 5px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.inputs{
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.buttons{
+  background-color: black;
+  margin-top: 15px;
+}
+#btnlogin{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+}
+#btnregister{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+@keyframes fade {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#plslgn {
+  animation: fade 2s linear infinite;
+}
