@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
-import Login from './Interfaces/login';
+//import Inventory from './Components/App';
+//import Inventory from './Components/AppTwo';
+//import Inventory from './Components/AppThree';
+import Inventory from './Components/AppFour';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <Inventory />
   </React.StrictMode>
 );
 
